@@ -1,2 +1,2 @@
-# pixelqt
+# PixelQt
 PixelCore Qt Extras
