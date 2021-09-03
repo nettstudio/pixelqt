@@ -8,7 +8,6 @@ set(CMAKE_AUTORCC ON)
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-
 set(SOURCES_LIB
     qtcolorpicker.cpp
     qtcolortriangle.cpp
@@ -23,7 +22,7 @@ set(HEADERS_LIB
 
 add_definitions(-DAPP_LIBRARY)
 
-find_package(Qt5 5.12 REQUIRED Core Gui Widgets)
+find_package(Qt5 5.6 REQUIRED Core Gui Widgets)
 
 if(NOT WIN32)
     add_compile_options(-Wall -Wextra)
